@@ -23,11 +23,11 @@ create table Enrollments(
       foreign key(students_id)
 		references Student(students_id),
 	  foreign key(course_id)
-        references Course(course_id)
+        references Courses(course_id)
         
 );
 
-insert into StudentS(students_id, students_name, students_email, students_phoneNum)
+insert into Student(students_id, students_name, students_email, students_phoneNum)
 values
 ("01","Nguyen Van A","Eggx@gmail.com","0931910112"),
 ("02","Nguyen Van A","Eggx@gmail.com","0192092333"),
