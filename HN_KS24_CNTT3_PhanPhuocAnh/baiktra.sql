@@ -45,11 +45,11 @@ values
 
 insert into Enrollments(students_id,course_id, grade)
  values
-(1, 1, 8.50),
-(1, 2, 7.00),
-(2, 4, 9.00),
-(3, 3, 6.75),
-(4, 5, 8.25);
+('01', '1', 8.50),
+('01', '2', 7.00),
+('02', '4', 9.00),
+('03', '3', 6.75),
+('04', '5', 8.25);
 
 update Enrollments
 set grade = 9.00
