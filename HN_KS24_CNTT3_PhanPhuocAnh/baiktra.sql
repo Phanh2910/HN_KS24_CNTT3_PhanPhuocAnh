@@ -30,10 +30,10 @@ create table Enrollments(
 insert into Student(students_id, students_name, students_email, students_phoneNum)
 values
 ("01","Nguyen Van A","Eggx1@gmail.com","0931910112"),
-("02","Nguyen Van A","Eggx2@gmail.com","0192092333"),
-("03","Nguyen Van A","Eggx3@gmail.com","0931910111"),
-("04","Nguyen Van A","Eggx4@gmail.com","0982828288"),
-("05","Nguyen Van A","Eggx5@gmail.com","0988822212");
+("02","Nguyen Van B","Eggx2@gmail.com","0192092333"),
+("03","Nguyen Van C","Eggx3@gmail.com","0931910111"),
+("04","Nguyen Van D","Eggx4@gmail.com","0982828288"),
+("05","Nguyen Van G","Eggx5@gmail.com","0988822212");
 
 insert into Courses(course_id, course_name,course_credit)
 values 
