@@ -53,7 +53,7 @@ insert into Enrollments(students_id,course_id, grade)
 
 update Enrollments
 set grade = 9.00
-where student_id = "2" and course_id = "4";
+where student_id = "02" and course_id = "4";
 
 select student_name,student_email,student_phoneNum
 from student
